@@ -1,0 +1,7 @@
+.contatos {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2vw;
+    padding: 1vw;
+} 
+

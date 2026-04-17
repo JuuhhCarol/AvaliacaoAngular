@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="card">
+    <h1>Register a New Account</h1>
+    <input type="name" placeholder="Seu nome" (change)="changed($event)" />
+    <input type="email" placeholder="Seu Email" (change)="changed($event)" />
+    <input type="nascimento" placeholder="Seu nascimento" (change)="changed($event)" />
+    <input type="tel" placeholder="Seu numero de telefone" (change)="changed($event)" />
+
+
+    <label>Senha:</label>
+    <input type="password" placeholder="Digite sua senha aqui..." (change)="changed($event)" />
+
+    <button (click)="submit()">Salvar</button>
+  </div>
+</div>
