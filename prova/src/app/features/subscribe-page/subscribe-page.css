@@ -40,13 +40,13 @@
 }
 
 .card input:focus {
-  border-color: #1d9bf0;
-  box-shadow: 0 0 0 1px #1d9bf0;
+  border-color: #1df0cd;
+  box-shadow: 0 0 0 1px #1df0d7;
 }
 
 .card button {
   margin-top: 10px;
-  background-color: #1d9bf0;
+  background-color: #1df0a6;
   color: white;
   border: none;
   border-radius: 999px;
@@ -57,7 +57,7 @@
 }
 
 .card button:hover {
-  background-color: #1a8cd8;
+  background-color: #1ad88f;
 }
 
 .card button:disabled {
